@@ -12,7 +12,7 @@ Slot number in which a car with a given vehicle registration plate is parked.
 Slot numbers of all slots where cars of drivers of a particular age are parked.
 We interact with the system via a file-based input system, i.e. it should accept a filename as an input. The file referenced by filename will contain a set of commands separated by a newline, we need to execute the commands in order and produce output.
 
-### Input:- [inputs.txt](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design/blob/main/inputs.txt) 
+### Input:- [inputs.txt](https://gist.github.com/tarungarg546/6200f936f2208bad5d9d0e053d773489) 
 
     Create_parking_lot 6
     Park KA-01-HH-1234 driver_age 21
@@ -29,27 +29,14 @@ Solution to Parking Lot system Design problem statement:-
 * Create a parking lot with 'n' number of slots, and always fill the slots in First In First Come Basis
 * maintaing track of the slots whenever it get's free, allocate only the slot with min value from entry point using sorting **O(nlog(n)** 
 
-![Implementation of System Design](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design/blob/main/SquadStack%20Parking%20Lot.png)
 
-
-### Use cases Future Scope
-  1. Parking single level, Multiple level
-  2. Types of vehicles that can be parked, separate spaces for each type of vehicle.
-  3. Number of Entry and exit points.
-
-### [Output:-][Link](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design/blob/main/code_Screenshot%202020-10-12%20at%2012.52.02%20AM.png)
-![Output](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design/blob/main/Screenshot%202020-10-12%20at%202.51.58%20AM.png)
-
-### How To Run on Your Local Machine
+### How To Run 
 
 using Python 3 for the implementation 
 
-  1. Download/git clone the [repo](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design)
+  1. Download/git clone the repo
   2. python src/parking.py
   2. To Run all the input put command in terminal $ ./squadstack_parking_lot_bash inputs.txt
   3. To Run Indivisual commands python src/parking_lot.py
  
- [Required Link 1](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design/blob/main/Screenshot%202020-10-12%20at%203.31.16%20AM.png)
- [Required Link 2](https://github.com/ajinkyajawale14/SquadStack-Parkinglot-System-Design/blob/main/Screenshot%202020-10-12%20at%203.31.41%20AM.png)
- 
- Thanks :)
+
